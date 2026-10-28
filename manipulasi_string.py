@@ -32,19 +32,19 @@ print(nama[2:]) # thon (dari 2 sampai akhir)
 print(nama)[:]  # python (seluruh string)
 
 nama = "alice"
-nama_upper = nama.upper
+nama_upper = nama.upper()
 print(nama_upper)   # ALICE
-nama_lower = nama.lower
+nama_lower = nama.lower()
 print(nama_lower)   #alice
 
 nama ="john doe"
-nama_title = nama.title
+nama_title = nama.title()
 print(nama_title)   # John Doe
-nama_capitalize = nama.capitalize
+nama_capitalize = nama.capitalize()
 print(nama_capitalize)  # John doe
 
 nama = " Alice "
-nama_strip = nama.strip
+nama_strip = nama.strip()
 print(nama_strip)   # 'Alice'
 
 kalimat = "I love you"
