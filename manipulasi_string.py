@@ -7,3 +7,6 @@ umur = 25
 # cara yang benar
 pesan= "Nama saya" + nama + ", Umur" + str(umur)
 print(pesan)
+
+print(len(nama))
+print(len(pesan))
