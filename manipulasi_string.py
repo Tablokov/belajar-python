@@ -85,3 +85,15 @@ print(profil)
 # Lebih jelas dibandingkan concatination
 profil_lama = "Halo, nama saya " + nama + ", umur " + str(umur) + "tahun, tinggal dikota" + kota
 print(profil_lama) 
+
+harga = 100000
+jumlah = 3
+
+# Operasi matematika dalam f-string
+total = f"Total: RP {harga*jumlah: ,}"
+print(total)    # Total: 300,000
+
+# Method calls dalam f-string
+nama = "Tablokov"
+salam = f"Hallo {nama.upper()}!"
+print (salam)   # Hallo Tablokov !
