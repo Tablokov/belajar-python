@@ -56,5 +56,5 @@ jumlah_s = nama.count("s")
 print(jumlah_s) # 4
 
 kalimat = "Belajar Python"
-posisi = kalimat.find("Belajar Python")
+posisi = kalimat.find("Python")
 print(posisi)   # 8
