@@ -47,7 +47,7 @@ nama = " Alice "
 nama_strip = nama.strip()
 print(nama_strip)   # 'Alice'
 
-kalimat = "I love you"
+kalimat = "I love Java"
 kalimat_baru = kalimat.replace("java", "Python")
 print(kalimat_baru) # I love Python
 
