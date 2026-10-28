@@ -73,3 +73,15 @@ print(kalimat1)
 
 kalimat2 = 'I\'m learning python'
 print(kalimat2)
+
+nama = "Tablokov"
+umur = 21
+kota = "Jambi"
+
+# Menggunakan f-string
+profil = f"Halo, nama saya {nama}, umur {umur} tahun, tinggal dikota {kota}"
+print(profil)
+
+# Lebih jelas dibandingkan concatination
+profil_lama = "Halo, nama saya " + nama + ", umur " + str(umur) + "tahun, tinggal dikota" + kota
+print(profil_lama) 
