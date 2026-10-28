@@ -58,3 +58,18 @@ print(jumlah_s) # 4
 kalimat = "Belajar Python"
 posisi = kalimat.find("Python")
 print(posisi)   # 8
+
+kalimat = "Baris pertama\nBaris kedua"
+print(kalimat)
+
+data = "Nama: \tAlice\n Umur: \t25"
+print(data)
+
+path = "C:\\Users\\hp\\Documents"
+print(path)
+
+kalimat1 = "Dia berkata \"Hello\" kepada saya"
+print(kalimat1)
+
+kalimat2 = 'I\'m learning python'
+print(kalimat2)
