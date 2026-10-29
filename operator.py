@@ -20,4 +20,4 @@ print(a ** b)   # Pangkat: 8 (2 pangkat 3)
 
 # Contoh lain
 print(5 ** 2)   # 25 (5 pangkat 2)
-print(3 ** 4)   # 18 (3 pangkat 4)
+print(3 ** 4)   # 81 (3 pangkat 4)
