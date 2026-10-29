@@ -21,3 +21,18 @@ print(a ** b)   # Pangkat: 8 (2 pangkat 3)
 # Contoh lain
 print(5 ** 2)   # 25 (5 pangkat 2)
 print(3 ** 4)   # 81 (3 pangkat 4)
+
+x = 10
+print("x awal:", x)
+
+x += 5  # Sama dengan: x = x + 5
+print("x setelah += 5:", x) # 15
+
+x -= 3  # Sama dengan: x = x - 3
+print("x setelah -= 3:", x) # 12
+
+x *= 2  # Sama dengan: x = x * 2
+print("x setelah *= 2", x)  # 24
+
+x /= 4 # Sama dengan: x = x / 4
+print("X setelah /= 4", x)  # 6.0
