@@ -36,3 +36,18 @@ print("x setelah *= 2", x)  # 24
 
 x /= 4 # Sama dengan: x = x / 4
 print("X setelah /= 4", x)  # 6.0
+
+print(a > b)    # Lebih besar: True
+print(a < b)    # Lebih kecil: False
+print(a >= b)   # Lebih besar atau sama: True
+print(a <= b)   # Lebih kecil atau sama: False
+print(a == b)   # Sama dengan: False
+print(a != b)   # Tidak sama dengan: False
+
+nama1 = "Alice"
+nama2 = "Bob"
+nama3 = "Alice"
+
+print(nama1 == nama3)   # True
+print(nama1 == nama2)   # False
+print(nama1 != nama2)   # True
