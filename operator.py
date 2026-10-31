@@ -59,4 +59,4 @@ hari = "Sabtu"
 print(hari == "Sabtu" or hari == "Minggu")  # True
 
 aktif = True
-print(not aktif)    # False
+print(not aktif)    # False 1
