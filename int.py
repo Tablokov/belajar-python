@@ -8,5 +8,5 @@ nol = 0
 populasi_dunia = 7800000000
 angka_besar = 123456789012345678901234567890
 
-print(type(umur))
-print(type(angka_besar))
+print(type(umur))   # Menampilkan umur
+print(type(angka_besar))    # Menampilkan angka besar
